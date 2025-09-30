@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff; /* Texto branco */
+    background-color: #000; /* Fundo preto */
+    padding: 20px;
+  }
+  
+  /* Navegação */
+  nav {
+    background-color: #222; /* Fundo mais escuro para o menu */
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* Texto branco */
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav a:hover {
+    background-color: #007BFF; /* Destaque ao passar o mouse */
+    transform: scale(1.1); /* Leve aumento no tamanho */
+  }
+  
+  /* Conteúdo principal */
+  .conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #111; /* Fundo levemente mais claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Links */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Leve aumento no tamanho */
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    nav a {
+      padding: 8px 15px;
+      margin: 0 5px;
+      font-size: 14px;
+    }
+  
+    .conteudo {
+      padding: 20px;
+    }
+  
+    button {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
